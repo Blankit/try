@@ -1,0 +1,18 @@
+#coding:utf-8
+'''
+一楼道有N个台阶，上楼每一步可以跨1个台阶或者2个台阶，求走到楼顶总共多少种走法？
+'''
+
+n = 5#台阶数
+def fun(n):
+
+    if (n == 1):
+        z = 1
+    elif (n == 2):
+        z =2
+    else:
+        z = fun(n-1) + fun(n-2)
+    return z
+
+z = fun(5)
+print z
