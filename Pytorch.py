@@ -21,3 +21,6 @@ v_out = torch.mean(variable*2)
 v_out.backward()
 
 print variable.grad
+'''
+v_out is the mean value of variable, that means v_out is a function about variable. When compute v_out's backward, the gradient of variable generate automatically.
+'''
