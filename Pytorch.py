@@ -1,6 +1,10 @@
-2017/10/25
-'torch.IntTensor' object has no attribute 'mean'
-'torch.FloatTensor' object has  attribute 'mean'
+#coding:utf-8
+#2017/10/25
+'''
+ 'torch.IntTensor' object has no attribute 'mean'
+ 'torch.FloatTensor' object has  attribute 'mean'
+'''
+
 
 #compute gradient
 
